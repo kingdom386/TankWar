@@ -8,7 +8,7 @@
 //  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/life-cycle-callbacks.html
 //  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/life-cycle-callbacks.html
 
-// 脚本用户首页选择游戏模式单人游戏还是双人游戏
+// 绘制游戏的地图
 
 cc.Class({
     extends: cc.Component,
@@ -16,15 +16,7 @@ cc.Class({
     properties: {
     },
 
-    // LIFE-CYCLE CALLBACKS:
-
-    // onLoad () {},
-
     start () {
-        console.log(this.node);
-        console.log(this.node.x);
-        console.log(this.node.y);
-    },
 
-    // update (dt) {},
+    },
 });
